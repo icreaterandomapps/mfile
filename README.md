@@ -1,6 +1,6 @@
 # mFile
 
-A native Windows file manager inspired by Windows 7 Explorer, built with C++ and Win32.
+A native Windows file manager inspired by Windows Explorer, built with C++.
 
 ## Features
 
