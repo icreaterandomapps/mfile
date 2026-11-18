@@ -4,7 +4,6 @@ A native Windows file manager inspired by Windows Explorer, built with C++.
 
 ## Features
 
-- Native Windows interface
 - Explorer-inspired navigation sidebar
 - File and folder browsing
 - Details view with file information
@@ -12,9 +11,8 @@ A native Windows file manager inspired by Windows Explorer, built with C++.
 - ZIP compression and extraction
 - Context menus
 - File sorting and grouping
-- Date-based groups for Downloads
+- Date-based groups for Downloads And other folders
 - Dark mode
-- Adjustable view sizes
 - Folder and file icons
 
 ## Screenshots
