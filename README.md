@@ -17,7 +17,7 @@ A native Windows file manager inspired by Windows Explorer, built with C++.
 
 ## Usage
 
-Download (mfile.exe)[https://github.com/icreaterandomapps/mfile/releases/download/0.1/mfile.exe] and open.
+Download [mfile.exe](https://github.com/icreaterandomapps/mfile/releases/download/0.1/mfile.exe) and open.
 
 ## Screenshots
 
