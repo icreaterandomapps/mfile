@@ -15,6 +15,10 @@ A native Windows file manager inspired by Windows Explorer, built with C++.
 - Dark mode
 - Folder and file icons
 
+## Usage
+
+Download (mfile.exe)[https://github.com/icreaterandomapps/mfile/releases/download/0.1/mfile.exe] and open.
+
 ## Screenshots
 
 ill add them later
