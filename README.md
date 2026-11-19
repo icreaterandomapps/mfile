@@ -21,7 +21,7 @@ mFile is a native Win32 file manager for Windows, inspired by Windows Explorer a
 
 ## Download
 
-Prebuilt binaries may be available on the [Releases](https://github.com/icreaterandomapps/mfile/releases) page.
+Prebuilt binaries are available on the [Releases](https://github.com/icreaterandomapps/mfile/releases) page.
 
 ## Requirements
 
