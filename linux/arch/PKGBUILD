@@ -1,0 +1,24 @@
+# Maintainer: icreaterandomapps
+pkgname=mfile-linux
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Native Linux (GTK3) port of mFile, a simple file manager"
+arch=('x86_64')
+url="https://github.com/icreaterandomapps/mfile"
+license=('custom')
+depends=('gtk3')
+makedepends=('base-devel' 'pkgconf')
+source=("mfile.cpp" "Makefile")
+sha256sums=('SKIP' 'SKIP')
+
+build() {
+  cd "$srcdir"
+  # When building from a local directory with makepkg --noextract, files may already be present.
+  # If building from extracted sources, ensure mfile.cpp and Makefile are in srcdir.
+  make
+}
+
+package() {
+  cd "$srcdir"
+  install -Dm755 mfile "$pkgdir/usr/bin/mfile"
+}
