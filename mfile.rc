@@ -1,4 +1,28 @@
 #include <windows.h>
 
 #define IDI_APPICON 101
-IDI_APPICON ICON "mfile.ico"
+#define IDR_PNG_BACK      201
+#define IDR_PNG_FORWARD   202
+#define IDR_PNG_UP        203
+#define IDR_PNG_REFRESH   204
+#define IDR_PNG_DESKTOP   205
+#define IDR_PNG_DOWNLOADS 206
+#define IDR_PNG_DOCS      207
+#define IDR_PNG_PICS      208
+#define IDR_PNG_MUSIC     209
+#define IDR_PNG_VIDEOS    210
+#define IDR_PNG_CD        211
+
+IDI_APPICON ICON "icons\\mfile.ico"
+
+IDR_PNG_BACK      RCDATA "icons\\leftarrow.png"
+IDR_PNG_FORWARD   RCDATA "icons\\rightarrow.png"
+IDR_PNG_UP        RCDATA "icons\\uparrow.png"
+IDR_PNG_REFRESH   RCDATA "icons\\refresh.png"
+IDR_PNG_DESKTOP   RCDATA "icons\\desktop.png"
+IDR_PNG_DOWNLOADS RCDATA "icons\\downloads.png"
+IDR_PNG_DOCS      RCDATA "icons\\docs.png"
+IDR_PNG_PICS      RCDATA "icons\\pics.png"
+IDR_PNG_MUSIC     RCDATA "icons\\music.png"
+IDR_PNG_VIDEOS    RCDATA "icons\\videos.png"
+IDR_PNG_CD        RCDATA "icons\\cd.png"

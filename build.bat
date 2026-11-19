@@ -11,7 +11,7 @@ if errorlevel 1 (
 )
 
 echo [2/2] Compiling mfile.exe...
-g++ -std=c++11 -mwindows -O2 -Wall -static-libgcc -static-libstdc++ mfile.cpp mfile.res -o mfile.exe -lcomctl32 -lshell32 -lcomdlg32 -lole32 -loleaut32 -luuid -lgdi32 -luser32 -luxtheme
+g++ -std=c++11 -mwindows -O2 -Wall -static-libgcc -static-libstdc++ mfile.cpp mfile.res -o mfile.exe -lcomctl32 -lshell32 -lcomdlg32 -lole32 -loleaut32 -luuid -lgdi32 -lgdiplus -luser32 -luxtheme -ladvapi32
 if errorlevel 1 (
     echo ERROR: g++ failed.
     del /q mfile.res >nul 2>&1
